@@ -21,12 +21,12 @@ const {
 		<BaseHead articleDate={articleDate} description={description} ogImage={ogImage} title={title} />
 	</head>
 	<body
-		class="mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-4 pt-16 font-mono text-sm font-normal text-textColor antialiased sm:px-8"
+		class="mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-4 pt-8 pb-4 gap-16 font-mono text-sm font-normal text-textColor antialiased sm:px-8"
 	>
 		<ThemeProvider />
 		<SkipLink />
 		<Header />
-		<main id="main">
+		<main class="grow" id="main">
 			<slot />
 		</main>
 		<Footer />

@@ -4,9 +4,15 @@ import Search from "../Search.astro";
 import ThemeToggle from "../ThemeToggle.astro";
 
 const url = new URL(Astro.request.url);
+
+const current = menuLinks.find(link=>{
+return url.pathname === link.path ? true : false
+})?.title
+
+const titlePrefix = current && current.toLowerCase() !== "home"? `> ${current}`: ""
 ---
 
-<header class="group relative mb-28 flex items-center sm:ps-[4.5rem]" id="main-header">
+<header class="group relative flex items-center sm:ps-[4.5rem]" id="main-header">
 	<div class="flex sm:flex-col">
 		<a
 			aria-current={url.pathname === "/" ? "page" : false}
@@ -33,7 +39,7 @@ const url = new URL(Astro.request.url);
 					fill="#53C68C"></path>
 				<path d="M45.334 240 0 213.334v120L45.334 360V240Z" fill="#B04304"></path>
 			</svg>
-			<span class="text-xl font-bold sm:text-2xl">Astro Cactus</span>
+			<span class="text-xl font-bold sm:text-2xl">prabhatcharita {titlePrefix}</span>
 		</a>
 		<nav
 			aria-label="Main menu"
@@ -48,7 +54,7 @@ const url = new URL(Astro.request.url);
 						data-astro-prefetch
 						href={link.path}
 					>
-						{link.title}
+{link.title===current? "* ":""} {link.title}
 					</a>
 				))
 			}
