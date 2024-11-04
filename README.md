@@ -1,3 +1,3 @@
 # prabhatcharit
 
-Personal website of Prabhat
+Personal website of Prabhat.
