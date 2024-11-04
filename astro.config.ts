@@ -21,6 +21,7 @@ import rehypeExternalLinks from "rehype-external-links";
 
 // https://astro.build/config
 export default defineConfig({
+  output: 'static',
 	image: {
 		domains: ["webmention.io"],
 	},
