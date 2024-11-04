@@ -81,6 +81,12 @@ import "@pagefind/default-ui/css/ui.css";
 		};
 
 		onWindowKeydown = (e: KeyboardEvent) => {
+      // check if Ctrl+k or Cmd+k is pressed
+      if ((e.ctrlKey || e.metaKey) && e.key === "k" && !this.dialog.open) {
+        this.openModal();
+        e.preventDefault();
+      }
+
 			// check if it's the / key
 			if (e.key === "/" && !this.dialog.open) {
 				this.openModal();
