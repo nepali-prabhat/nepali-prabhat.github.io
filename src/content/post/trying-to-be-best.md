@@ -4,10 +4,10 @@ description: "A reflection on perfectionism after I challenged myself to draw."
 publishDate: 11 Jun 2021
 tags: ["art", "learning"]
 draft: false
-coverImage:
-  src: "@/assets/trying_to_be_best/cover-pic.webp"
-  alt: "Art of a person standing with their hair covering their face."
 ---
+<!-- coverImage: -->
+<!--   src: "@/assets/trying_to_be_best/cover-pic.webp" -->
+<!--   alt: "Art of a person standing with their hair covering their face." -->
 
 “I am going to be the best at everything I do.” This is how I identify myself. I thought this was the right mentality to have. After all, who wants to be mediocre? So, I tried to be the best at literally _everything_ I did.
 

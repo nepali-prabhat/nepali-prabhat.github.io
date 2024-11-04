@@ -1,5 +1,5 @@
 ---
-title: "The KU Journey — for the memory of my uni life"
+title: "The KU Journey — for the memory of my university life"
 description: "Memories of university life at Kathmandu University."
 publishDate: 24 Jun 2022
 tags: ["uni", "graduation", "literature"]
