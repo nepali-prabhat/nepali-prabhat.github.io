@@ -8,7 +8,7 @@ import type { GetStaticPaths, Page } from "astro";
 
 export const getStaticPaths = (async ({ paginate }) => {
 	const MAX_POSTS_PER_PAGE = 10;
-	const allPosts = await getAllPosts();
+	const allPosts = await getAllPosts({ignoreBooks: false});
 	const allPostsByDate = sortMDByDate(allPosts);
 	const uniqueTags = getUniqueTags(allPosts);
 	return paginate(allPostsByDate, { pageSize: MAX_POSTS_PER_PAGE, props: { uniqueTags } });
@@ -46,7 +46,6 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 ---
 
 <PageLayout meta={meta}>
-  <h1 class="title mb-6">Posts</h1>
 	<div class="grid sm:grid-rows gap-4">
 		{
 			uniqueTags.length ? (
@@ -64,7 +63,7 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 							</li>
 						))}
 					<span>
-						<a aria-label="View all blog categories" class="sm:hover:text-accent" href="/tags/">
+						<a aria-label="View all blog categories" class="cactus-link" href="/tags/">
 							all tags {"->"}
 						</a>
 					</span>

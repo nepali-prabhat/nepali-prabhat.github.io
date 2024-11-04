@@ -4,13 +4,10 @@ description: "Git was my valentine this year. I finally went deep inside .git an
 publishDate: 14 Feb 2021
 tags: ["programming", "git"]
 draft: false
-coverImage:
-  src: "@/assets/exploring_git/git_cover.png"
-  alt: "Git logo in rough sketch style"
 ---
-
-# What is inside the .git folder and how does it relate to version control?
-
+<!-- coverImage: -->
+<!--   src: "@/assets/exploring_git/git_cover.png" -->
+<!--   alt: "Git logo in rough sketch style" -->
 If you are like me, you find it easier to learn new things if you already know its fundamentals. With this article, we will have a deeper understanding of how git works under the hood.
 
 ---
@@ -18,8 +15,8 @@ If you are like me, you find it easier to learn new things if you already know i
 ## The .git folder
 When we initialize a git repository, a .git folder gets created. Git uses this folder to perform its version control. Git takes snapshots of the state of all the files and stores them as binary in the .git/objects folder.
 
-![Git storing snapshots of all files in the project](@/assets/exploring_git/git_snapshot.png)
-Fig: Git storing snapshots of all files in the project (instead of storing delta changes between each files which other VCS do.)
+<!-- ![Git storing snapshots of all files in the project](@/assets/exploring_git/git_snapshot.png) -->
+<!-- Fig: Git storing snapshots of all files in the project (instead of storing delta changes between each files which other VCS do.) -->
 
 ## Objects
 ### Files and their objects

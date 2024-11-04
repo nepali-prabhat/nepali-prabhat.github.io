@@ -4,7 +4,7 @@ import PostPreview from "@/components/blog/PostPreview.astro";
 import { getAllPosts, sortMDByDate, getAllPostsForBook } from "@/data/post";
 import PageLayout from "@/layouts/Base.astro";
 
-const MAX_POSTS = 3;
+const MAX_POSTS = 4;
 const allPosts = await getAllPosts({ignoreBooks: true});
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 const bookReviewsByDate = (await getAllPostsForBook())
@@ -23,7 +23,7 @@ const bookReviewsByDate = (await getAllPostsForBook())
 		<!-- <SocialList /> -->
 	</section>
 	<section aria-label="Blog post list" class="mt-8">
-		<h2 class="title mb-4 text-xl">recent posts</h2>
+		<h2 class="title mb-4 text-xl">featured posts</h2>
 		<ul class="space-y-4">
 			{
 				allPostsByDate.map((p) => (
@@ -41,7 +41,7 @@ const bookReviewsByDate = (await getAllPostsForBook())
 	{
 		!!bookReviewsByDate.length && (
 			<section aria-label="Blog post list" class="mt-8">
-				<h2 class="title mb-4 text-xl">book recommendations</h2>
+				<h2 class="title mb-4 text-xl">favourite books</h2>
 				<ul class="space-y-4">
 					{bookReviewsByDate.map((p) => (
 						<li class="grid gap-2 sm:grid-cols-[auto_1fr] sm:[&_q]:col-start-2">
