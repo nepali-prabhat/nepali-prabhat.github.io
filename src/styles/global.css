@@ -1,3 +1,40 @@
+@font-face {
+  font-family: 'Recursive Sans';
+  src: url('/fonts/Recursive-Medium.ttf') format('truetype');
+  font-weight: medium;
+}
+@font-face {
+  font-family: 'Recursive Sans';
+  src: url('/fonts/Recursive-SemiBold.ttf') format('truetype');
+  font-weight: semi-bold;
+}
+@font-face {
+  font-family: 'Recursive Sans';
+  src: url('/fonts/Recursive-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Recursive Sans';
+  src: url('/fonts/Recursive-ExtraBold.ttf') format('truetype');
+  font-weight: extra-bold;
+}
+@font-face {
+  font-family: 'Recursive Sans';
+  src: url('/fonts/Recursive-Light.ttf') format('truetype');
+  font-weight: light;
+}
+@font-face {
+  font-family: 'Recursive Sans';
+  src: url('/fonts/Recursive-Regular.ttf') format('truetype');
+  font-weight: normal;
+}
+
+/* @font-face { */
+/*   font-family: 'Recursive Mono'; */
+/*   src: url('/fonts/Recursive_Monospace-Regular.ttf') format('truetype'); */
+/*   font-weight: 400; */
+/* } */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,21 +44,22 @@
 	:root[data-theme="light"] {
 		color-scheme: light;
 		/* https://tailwindcss.com/docs/customizing-colors#using-css-variables */
-		--theme-bg: 0deg 0% 90%;
+		--theme-bg: 53deg 73% 91%;
 		--theme-link: 172deg 18% 41%;
 		--theme-text: 203deg 11% 15%;
-		--theme-accent: 351deg 66% 48%;
-		--theme-accent-2: 0deg 0% 7%;
+		--theme-accent: 351deg 66% 2%;
+		--theme-accent-2: 0deg 0% 2%;
 		--theme-quote: 351deg 66% 48%;
 	}
 
 	:root[data-theme="dark"] {
 		color-scheme: dark;
-		--theme-bg: 0deg 0% 0%;
-		--theme-link: 330deg 49% 67%;
+		--theme-bg: 200deg 4.8% 10%;
+		--theme-link: 343.1deg 47% 67.5%;
 		--theme-text: 220deg 3% 79%;
-		--theme-accent: 159deg 64% 99%;
-		--theme-accent-2: 0deg 0% 93%;
+		--theme-accent: 70.4deg 35.7% 55.5%;
+		--theme-accent-2: 23deg 76% 61%;
+		/* --theme-accent-2: 0deg 0% 93%; */
 		--theme-quote: 102deg 100% 86%;
 	}
 }

@@ -46,7 +46,8 @@ export default {
 			},
 			fontFamily: {
 				// Add any custom fonts here
-				sans: [...fontFamily.sans],
+				sans: ["Recursive Sans", ...fontFamily.sans],
+				mono: ["Recursive Mono", ...fontFamily.mono],
 				serif: [...fontFamily.serif],
 			},
 			transitionProperty: {
