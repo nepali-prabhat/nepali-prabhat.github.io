@@ -1,0 +1,26 @@
+{
+  "name": "Prabhat Pandey",
+  "icons": [
+    {
+      "src": "public/icon/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "public/icon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "public/icon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "description": "A collection of Prabhat's writings, thoughts, and artistic works reflecting his inner world and creative spirit.",
+  "lang": "en-US",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
