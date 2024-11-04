@@ -21,15 +21,15 @@ const socialImageURL = new URL(ogImage ? ogImage : "/social-card.png", Astro.url
 <!-- <link rel="preload" href="/fonts/Recursive_Monospace-Regular.ttf" as="font" type="font/ttf" crossorigin="anonymous"> -->
 
 {/* Icons */}
-<link href="/icon.svg" rel="icon" type="image/svg+xml" />
+<link href="/public/icon/favicon.ico" rel="icon" type="image/png" />
 {
 	import.meta.env.PROD && (
 		<>
 			{/* Favicon & Apple Icon */}
-			<link rel="icon" href="/favicon-32x32.png" type="image/png" />
-			<link href="/icons/apple-touch-icon.png" rel="apple-touch-icon" />
+			<link rel="icon" href="/icon/favicon-32x32.png" type="image/png" />
+			<link href="/icon/apple-touch-icon.png" rel="apple-touch-icon" />
 			{/* Manifest */}
-			<link href="/manifest.webmanifest" rel="manifest" />
+			<link href="/icon/site.webmanifest" rel="manifest" />
 		</>
 	)
 }

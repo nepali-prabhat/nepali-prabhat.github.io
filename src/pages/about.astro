@@ -1,5 +1,7 @@
 ---
 import PageLayout from "@/layouts/Base.astro";
+import logoImg from "@/assets/logo-hand-eye-100.png";
+import { Image } from "astro:assets";
 import SocialList from "@/components/SocialList.astro";
 
 const meta = {
@@ -10,9 +12,8 @@ const meta = {
 
 <PageLayout meta={meta}>
 	<div class="space-y-6">
-		<h1 class="title">About</h1>
 		<div>
-			<p class="mb-4">
+			<p>
 				{
 					"I am Prabhat Pandey, a backend-focused computer engineer, writer, artist, and an avid explorer of ideas.".toLowerCase()
 				}
@@ -25,8 +26,16 @@ const meta = {
 			<p>
 				{"Welcome, and thank you for visiting Prabhat Charita.".toLowerCase()}
 			</p>
+			<SocialList />
+			<div class="flex">
+				<Image
+					alt="A cartoon version of Prabhat Pandey"
+					class="w-48 rotate-[-5deg]"
+					loading="eager"
+					src={logoImg}
+				/>
+			</div>
 		</div>
-		<SocialList />
 		<div>
 			<a class="cactus-link" href="/" title="Home">home {"->"}</a>
 		</div>

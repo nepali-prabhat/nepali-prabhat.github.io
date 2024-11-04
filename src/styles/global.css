@@ -54,7 +54,7 @@
 
 	:root[data-theme="dark"] {
 		color-scheme: dark;
-		--theme-bg: 200deg 4.8% 10%;
+		--theme-bg: 200deg 4.8% 12.5%;
 		--theme-link: 343.1deg 47% 67.5%;
 		--theme-text: 220deg 3% 79%;
 		--theme-accent: 70.4deg 35.7% 55.5%;
