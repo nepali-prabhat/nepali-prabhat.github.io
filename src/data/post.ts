@@ -2,8 +2,22 @@ import { type CollectionEntry, getCollection } from "astro:content";
 import { siteConfig } from "@/site-config";
 
 /** filter out draft posts based on the environment */
-export async function getAllPosts() {
+export async function getAllPosts({ignoreBooks = false}={}) {
 	return await getCollection("post", ({ data }) => {
+    if (data.ignore){
+      return false;
+    }
+    if (ignoreBooks && data.isBook){
+      return false;
+    }
+		return import.meta.env.PROD ? !data.draft : true;
+	});
+}
+export async function getAllPostsForBook() {
+	return await getCollection("post", ({ data }) => {
+    if (!data.isBook){
+      return false;
+    }
 		return import.meta.env.PROD ? !data.draft : true;
 	});
 }

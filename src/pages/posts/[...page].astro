@@ -47,9 +47,9 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 
 <PageLayout meta={meta}>
   <h1 class="title mb-6">Posts</h1>
-	<div class="grid sm:grid-rows-[1fr_3fr]">
+	<div class="grid sm:grid-rows gap-4">
 		{
-			!!uniqueTags.length && (
+			uniqueTags.length ? (
 				<aside>
 					<ul class="flex flex-wrap gap-2 items-center">
 						{uniqueTags.map((tag) => (
@@ -70,7 +70,7 @@ const descYearKeys = Object.keys(groupedByYear).sort((a, b) => +b - +a);
 					</span>
 					</ul>
 				</aside>
-			)
+			): null
 		}
 		<section aria-label="Blog post list">
 			{

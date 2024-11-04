@@ -1,8 +1,9 @@
 ---
 title: "Of Dogs and Walls"
 description: "Collection of two short stories by Yuko Tushima. The first story is 'The watery realm' and the second story is 'Of Dogs and Walls'."
-publishDate: "03 Nov 2024"
+publishDate: 07 Jun 2024
 tags: ["recommendation", "book"]
+isBook: true
 draft: false
 ---
 

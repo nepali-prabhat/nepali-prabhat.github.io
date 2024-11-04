@@ -25,6 +25,8 @@ const post = defineCollection({
 				.transform((val) => new Date(val)),
 			tags: z.array(z.string()).default([]).transform(removeDupsAndLowerCase),
 			title: z.string().max(60),
+      ignore: z.boolean().default(false),
+      isBook: z.boolean().default(false),
 			updatedDate: z
 				.string()
 				.optional()

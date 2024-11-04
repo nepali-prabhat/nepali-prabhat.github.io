@@ -1,7 +1,7 @@
 ---
 title: "Exploring .git folder"
 description: "Git was my valentine this year. I finally went deep inside .git and got to know it a lot better."
-publishDate: "23 Feb 2021"
+publishDate: 14 Feb 2021
 tags: ["programming", "git"]
 draft: false
 coverImage:
