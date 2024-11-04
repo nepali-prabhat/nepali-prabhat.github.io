@@ -22,6 +22,8 @@ import rehypeExternalLinks from "rehype-external-links";
 // https://astro.build/config
 export default defineConfig({
   output: 'static',
+  site: 'https://nepali-prabhat.github.io',
+  base: 'prabhatcharita',
 	image: {
 		domains: ["webmention.io"],
 	},
