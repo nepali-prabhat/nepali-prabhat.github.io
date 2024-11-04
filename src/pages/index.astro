@@ -1,5 +1,4 @@
 ---
-import SocialList from "@/components/SocialList.astro";
 import PostPreview from "@/components/blog/PostPreview.astro";
 import { getAllPosts, sortMDByDate, getAllPostsForBook } from "@/data/post";
 import PageLayout from "@/layouts/Base.astro";
@@ -20,7 +19,6 @@ const bookReviewsByDate = (await getAllPostsForBook())
 			}
 		</p>
     <a class="cactus-link" href="/about/" title="About">about {"->"}</a>
-		<!-- <SocialList /> -->
 	</section>
 	<section aria-label="Blog post list" class="mt-8">
 		<h2 class="title mb-4 text-xl">featured posts</h2>

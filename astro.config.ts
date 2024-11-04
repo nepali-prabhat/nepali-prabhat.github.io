@@ -12,7 +12,7 @@ import { siteConfig } from "./src/site.config";
 
 // Remark plugins
 import remarkDirective from "remark-directive"; /* Handle ::: directives as nodes */
-import remarkUnwrapImages from "remark-unwrap-images";
+import rehypeUnwrapImages from "rehype-unwrap-images";
 import { remarkAdmonitions } from "./src/plugins/remark-admonitions"; /* Add admonitions */
 import { remarkReadingTime } from "./src/plugins/remark-reading-time";
 
@@ -23,7 +23,7 @@ import rehypeExternalLinks from "rehype-external-links";
 export default defineConfig({
   output: 'static',
   site: 'https://nepali-prabhat.github.io',
-  base: 'prabhatcharita',
+  // base: 'prabhatcharita',
 	image: {
 		domains: ["webmention.io"],
 	},
@@ -86,8 +86,9 @@ export default defineConfig({
 					target: "_blank",
 				},
 			],
+      rehypeUnwrapImages,
 		],
-		remarkPlugins: [remarkUnwrapImages, remarkReadingTime, remarkDirective, remarkAdmonitions],
+		remarkPlugins: [remarkReadingTime, remarkDirective, remarkAdmonitions],
 		remarkRehype: {
 			footnoteLabelProperties: {
 				className: [""],
@@ -97,7 +98,6 @@ export default defineConfig({
 	// https://docs.astro.build/en/guides/prefetch/
 	prefetch: true,
 	// ! Please remember to replace the following site property with your own domain
-	site: "https://prabhatcharita.com/",
 	vite: {
 		optimizeDeps: {
 			exclude: ["@resvg/resvg-js"],
