@@ -11,7 +11,7 @@ It's easier to understand if you have ever pursued something seriously yourself.
 
 ---
 
-The reason children are such great beginners is because they have limited awareness.
+Children are great beginners because of their limited awareness.
 They don't have to wrestle with their inner critic.
 They don't question how their pursuits fit in the world, or if it's even worth doing it.
 Thus, they can easily fall in love with what they are doing.
