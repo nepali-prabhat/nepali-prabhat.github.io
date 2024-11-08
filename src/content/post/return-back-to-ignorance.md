@@ -11,7 +11,10 @@ It's easier to understand if you have ever pursued something seriously yourself.
 
 ---
 
-The reason children are such great beginners is because they don't have the awareness yet. They don't have to wrestle with their inner critic. They don't question how their pursuits fit in the world, or if it's even worth doing it. Thus, they can easily fall in love with the process.
+The reason children are such great beginners is because they have limited awareness.
+They don't have to wrestle with their inner critic.
+They don't question how their pursuits fit in the world, or if it's even worth doing it.
+Thus, they can easily fall in love with what they are doing.
 
 In the art-making process, too much awareness works against you.
 Being aware that a good painting is a combination of value, shape, edge, etc might help you better understand others artwork, or make you a good art critic. But it helps little in making *you* a good painter.
