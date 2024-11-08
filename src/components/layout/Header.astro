@@ -6,7 +6,7 @@ import ThemeToggle from "../ThemeToggle.astro";
 const url = new URL(Astro.request.url);
 
 const current = menuLinks.find(link=>{
-return url.pathname === link.path ? true : false
+return url.pathname === link.path
 })?.title
 
 // const titlePrefix = current && current.toLowerCase() !== "home"? `> ${current}`: ""
