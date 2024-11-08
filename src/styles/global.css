@@ -2,37 +2,44 @@
   font-family: 'Recursive Sans';
   src: url('/fonts/Recursive-Medium.ttf') format('truetype');
   font-weight: medium;
+  /* font-display: swap; */
 }
 @font-face {
   font-family: 'Recursive Sans';
   src: url('/fonts/Recursive-SemiBold.ttf') format('truetype');
   font-weight: semi-bold;
+  /* font-display: swap; */
 }
 @font-face {
   font-family: 'Recursive Sans';
   src: url('/fonts/Recursive-Bold.ttf') format('truetype');
   font-weight: bold;
+  /* font-display: swap; */
 }
 @font-face {
   font-family: 'Recursive Sans';
   src: url('/fonts/Recursive-ExtraBold.ttf') format('truetype');
   font-weight: extra-bold;
+  /* font-display: swap; */
 }
 @font-face {
   font-family: 'Recursive Sans';
   src: url('/fonts/Recursive-Light.ttf') format('truetype');
   font-weight: light;
+  /* font-display: swap; */
 }
 @font-face {
   font-family: 'Recursive Sans';
   src: url('/fonts/Recursive-Regular.ttf') format('truetype');
   font-weight: normal;
+  /* font-display: swap; */
 }
 
 @font-face {
   font-family: 'Recursive Mono';
   src: url('/fonts/Recursive_Monospace-Regular.ttf') format('truetype');
   font-weight: 400;
+  /* font-display: swap; */
 }
 
 @tailwind base;
