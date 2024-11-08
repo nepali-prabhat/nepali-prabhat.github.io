@@ -14,7 +14,7 @@ It's easier to understand if you have ever pursued something seriously yourself.
 In the art-making process, too much awareness works against you.
 Being aware that a good painting is a combination of value, shape, edge, etc might help you better understand others artwork, or make you a good art critic. But it helps little in making *you* a good painter.
 
-The best thing for a beginner is not to be aware of *all* the various things that makes something good. Rather, it's being comfortable and falling in love with the *actual* process of painting.
+The best thing for a beginner is not to be aware of *all* the various things that makes something good. Rather, it's being comfortable and falling in love with the *actual* process.
 This requires some form of ignorance. Ignorance of the end product, ignorance to the perceptions of the outside world, ignorance of what's good.
 It's a lot easier to be proud of your work, and produce more, when you don't know all the different things you missed.
 
