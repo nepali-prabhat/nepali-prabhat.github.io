@@ -11,14 +11,14 @@ It's easier to understand if you have ever pursued something seriously yourself.
 
 ---
 
+The reason children are such great beginners is because they don't have the awareness yet. They don't have to wrestle with their inner critic. They don't question how their pursuits fit in the world, or if it's even worth doing it. Thus, they can easily fall in love with the process.
+
 In the art-making process, too much awareness works against you.
 Being aware that a good painting is a combination of value, shape, edge, etc might help you better understand others artwork, or make you a good art critic. But it helps little in making *you* a good painter.
 
 The best thing for a beginner is not to be aware of *all* the various things that makes something good. Rather, it's being comfortable and falling in love with the *actual* process.
-This requires some form of ignorance. Ignorance of the end product, ignorance to the perceptions of the outside world, ignorance of what's good.
-It's a lot easier to be proud of your work, and produce more, when you don't know all the different things you missed.
-
-The reason children are such great beginners is because they don't have the awareness yet. They don't have to wrestle with their inner critic. They don't question how their pursuits fit in the world, or if it's even worth doing it. Thus, they can easily fall in love with the process.
+This requires some form of ignorance. Ignorance of the end product, to the perceptions of the outside world, ignorance of what's good.
+It's a lot easier to be proud of your work when you don't know all the different things you missed.
 
 Creative ideas come from ignorance. The more aware you are, the harder it is to come up with something completely "out there". The more you understand the risks, the more difficult it is to be courageous.
 
