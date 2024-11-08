@@ -24,7 +24,7 @@ Creative ideas come from ignorance. The more aware you are, the harder it is to 
 
 ## Return back to ignorance
 
-A curious person falls into the temptation of reaching for information. There are people who walked the same path and they share things they wish they did differently. There are some great teachers, tutorials, blog posts, and books that expose you to all kinds of information. All correct, valid information. But those are not for you.
+A curious person falls into the temptation of reaching for information. There are lots of people who walked the same path you are currently on, and they share things they wish they did differently. There are some great tutorials, blog posts, and books that expose you to all kinds of information. All correct, valid information. But those are not for you.
 
 These expose you to the scale of the mountain you are climbing. All the different paths you can take, all the people that are trying to reach the same goal, some that are climbing faster than you, some that failed, some that are already there.
 
