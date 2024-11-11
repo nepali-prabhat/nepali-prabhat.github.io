@@ -6,6 +6,7 @@ import Footer from "@/components/layout/Footer.astro";
 import Header from "@/components/layout/Header.astro";
 import { siteConfig } from "@/site-config";
 import type { SiteMeta } from "@/types";
+import bg from "@/assets/somebg.png";
 
 interface Props {
 	meta: SiteMeta;
@@ -21,7 +22,7 @@ const {
 		<BaseHead articleDate={articleDate} description={description} ogImage={ogImage} title={title} />
 	</head>
 	<body
-		class="mx-auto flex min-h-screen max-w-3xl flex-col bg-bgColor px-4 pt-8 pb-4 gap-16 font-sans text-sm font-normal text-textColor antialiased sm:px-8"
+		class="relative mx-auto flex min-h-screen max-w-3xl flex-col gap-16 bg-bgColor px-4 pb-4 pt-8 font-sans text-sm font-normal text-textColor antialiased sm:px-8"
 	>
 		<ThemeProvider />
 		<SkipLink />
@@ -30,8 +31,14 @@ const {
 			<slot />
 		</main>
 		<Footer />
-    <!-- 100% privacy-first analytics -->
-    <script is:inline async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
-    <noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+		<!-- 100% privacy-first analytics -->
+		<script is:inline async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+		<noscript
+			><img
+				src="https://queue.simpleanalyticscdn.com/noscript.gif"
+				alt=""
+				referrerpolicy="no-referrer-when-downgrade"
+			/></noscript
+		>
 	</body>
 </html>

@@ -1,50 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @font-face {
   font-family: 'Recursive Sans';
-  src: url('/fonts/Recursive-Medium.ttf') format('truetype');
+  src: url('../assets/fonts/Recursive-Medium.ttf') format('truetype');
   font-weight: medium;
   /* font-display: swap; */
 }
 @font-face {
   font-family: 'Recursive Sans';
-  src: url('/fonts/Recursive-SemiBold.ttf') format('truetype');
+  src: url('../assets/fonts/Recursive-SemiBold.ttf') format('truetype');
   font-weight: semi-bold;
   /* font-display: swap; */
 }
 @font-face {
   font-family: 'Recursive Sans';
-  src: url('/fonts/Recursive-Bold.ttf') format('truetype');
+  src: url('../assets/fonts/Recursive-Bold.ttf') format('truetype');
   font-weight: bold;
   /* font-display: swap; */
 }
 @font-face {
   font-family: 'Recursive Sans';
-  src: url('/fonts/Recursive-ExtraBold.ttf') format('truetype');
+  src: url('../assets/fonts/Recursive-ExtraBold.ttf') format('truetype');
   font-weight: extra-bold;
   /* font-display: swap; */
 }
 @font-face {
   font-family: 'Recursive Sans';
-  src: url('/fonts/Recursive-Light.ttf') format('truetype');
+  src: url('../assets/fonts/Recursive-Light.ttf') format('truetype');
   font-weight: light;
   /* font-display: swap; */
 }
 @font-face {
   font-family: 'Recursive Sans';
-  src: url('/fonts/Recursive-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/Recursive-Regular.ttf') format('truetype');
   font-weight: normal;
   /* font-display: swap; */
 }
 
 @font-face {
   font-family: 'Recursive Mono';
-  src: url('/fonts/Recursive_Monospace-Regular.ttf') format('truetype');
+  src: url('../assets/fonts/Recursive_Monospace-Regular.ttf') format('truetype');
   font-weight: 400;
   /* font-display: swap; */
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 @layer base {
 	:root,
@@ -69,4 +69,23 @@
 		/* --theme-accent-2: 0deg 0% 93%; */
 		--theme-quote: 102deg 100% 86%;
 	}
+}
+
+body::before{
+  content: "";
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  background-image: url("../assets/dots.jpg");
+  background-size: content;
+  background-repeat: repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  filter: blur(3px);
+  z-index:-1;
+}
+:root[data-theme="dark"] body::before{
+  filter: blur(3px) invert();
 }

@@ -12,41 +12,11 @@ const { headings } = Astro.props;
 const toc = generateToc(headings);
 ---
 
-<aside class="top-20 order-2 -me-32 mb-4 basis-64 lg:sticky lg:block">
+<aside class="flex-grow order-2 mb-4 hidden md:top-2 md:sticky md:block">
 	<h2 class="font-semibold text-accent-2">
-		<button id="toc-button"> Table of Contents <span id="toc-button-icon"></span> </button>
+		Table of Contents
 	</h2>
-	<ul id="toc-list" class="mb-6 mt-4 hidden text-xs lg:mb-0 lg:block">
+	<ul id="toc-list" class="mb-6 mt-4 text-xs md:mb-0">
 		{toc.map((heading) => <TOCHeading heading={heading} />)}
 	</ul>
 </aside>
-<script>
-	const button = document.getElementById("toc-button");
-	button?.addEventListener("click", () => toggletoc());
-	updateBtnIcon();
-
-	function updateBtnIcon() {
-		const list = document.getElementById("toc-list");
-		const btnIcon = document.getElementById("toc-button-icon");
-		if (list && btnIcon) {
-			const display = window.getComputedStyle(list).display;
-			if (display === "none") {
-				btnIcon.textContent = "+";
-			} else if (display === "block") {
-				btnIcon.textContent = "-";
-			}
-		}
-	}
-
-	function toggletoc() {
-		const list = document.getElementById("toc-list");
-
-		list?.classList.toggle("hidden");
-		if (list?.classList.contains("lg:block")) {
-			list?.classList.toggle("lg:hidden");
-		} else if (list?.classList.contains("lg:hidden")) {
-			list?.classList.toggle("lg:block");
-		}
-		updateBtnIcon();
-	}
-</script>
