@@ -9,20 +9,22 @@ draft: false
 
 [14513](https://www.cs.cmu.edu/~213/schedule.html) covers extensive aspects involved with systems programming. The course started with teaching how integers are represented in computer systems. It shows the limits where mathematical abstraction starts breaking. After that, it moves to machine level representations of program. The two labs, datalab and bomblab are fun
 
+[14513](https://www.cs.cmu.edu/~213/schedule.html) covers extensive aspects of systems programming. The course starts by teaching how integers are represented in computer systems, showing the limits where mathematical abstraction breaks down. After that, it moves to machine-level representations of programs. The two labs, **datalab** and **bomblab**, are especially fun.
+
 ## Datalab
 Datalab gives us 12 programming puzzles and constrains us to only use certain bitwise operators (no loops, conditionals, etc).
 
 Starting early helped complete the lab on time. Some memorable of the 12 were:
 1. isPalindrome
-	  1. Took the longest to code
-    2. Ended up being 47 total operators
+	  - Took the longest to code
+    - Ended up being 47 total operators
 2. addOK (check if x+y overflows)
-    1. Explored optimization techniques
-    2. Limited to use maximum of 20 bitwise operators
-    3. Initially solved with 42 operators. Optimized down to 20.
+    - Explored optimization techniques
+    - Limited to use maximum of 20 bitwise operators
+    - Initially solved with 42 operators. Optimized down to 20.
 3. absVal (find absolute value of x)
-    1. Was marked highest difficulty
-    2. Ended up one-shotting the solution
+    - Was marked highest difficulty
+    - Ended up one-shotting the solution
 
 In the topic of negative number representation, I also noticed many beautiful ironies and themes of duality. I'll leave for you to find them.
 
@@ -30,16 +32,16 @@ In the topic of negative number representation, I also noticed many beautiful ir
 
 
 ## Bomblab
-Bomblab is a binary executable that asks us for secret codes to diffuse the bomb and if we give wrong ones, it explodes and reduces our course grade.
+Bomblab is a binary executable that asks us for secret codes to diffuse a bomb. If we enter the wrong ones, it explodes and lowers our course grade.
 
-The bomb has 6 phases and we use debugger(gdb) to go through disassembled assembly instructions. We read assembly instructions, understand data flow, control flows, procedures, stack, and so on to find the codes and diffuse the bomb.
+The bomb has 6 phases, and we use a debugger (gdb) to step through disassembled assembly instructions. We read instructions, trace data and control flow, study procedures, examine the stack, and so on, to uncover the codes and diffuse the bomb.
 
-As I examined the assembly more, the program became clearer and clearer. At the end, I understood every function clearly although I didn't have access to the source code.
+As I examined the assembly, the binary became clearer and clearer. By the end, I understood every function clearly without seeing the source code.
 
 ### Hidden Phase
-Bomblab alluded to a hidden phase after I completed the 6th phase. This phase wouldn't add anything to our course grade. In fact, it just increased probablity of accidently exploding the bomb. So I avoided the phase but my curiosity got the best of me.
+Bomblab alluded to a hidden phase after I completed the 6th phase. This phase wouldn't add anything to our course grade. In fact, it just increased probablity of accidently exploding the bomb.
 
-I found phase 7, triggered it successfully and diffused the bomb. This phase turned out to be the most difficult one for me but the high I got from diffusing it was worth it!
+I avoided the phase but my curiosity got the best of me. I found phase 7, triggered it successfully and diffused the bomb. This phase turned out to be the most difficult one but the high I got from diffusing it was worth it.
 
 ## Conclusion
 The course has been really fun so far. It hasn't been as difficult as I had imagined it to be -- but then I haven't faced malloc lab yet, which apparently needs at least 40 hours.
