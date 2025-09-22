@@ -42,6 +42,3 @@ As I examined the assembly, the binary became clearer and clearer. By the end, I
 Bomblab alluded to a hidden phase after I completed the 6th phase. This phase wouldn't add anything to our course grade. In fact, it just increased probablity of accidently exploding the bomb.
 
 I avoided the phase but my curiosity got the best of me. I found phase 7, triggered it successfully and diffused the bomb. This phase turned out to be the most difficult one but the high I got from diffusing it was worth it.
-
-## Conclusion
-The course has been really fun so far. It hasn't been as difficult as I had imagined it to be -- but then I haven't faced malloc lab yet, which apparently needs at least 40 hours.
