@@ -9,8 +9,6 @@ draft: false
 
 [14513](https://www.cs.cmu.edu/~213/schedule.html) covers extensive aspects involved with systems programming. The course started with teaching how integers are represented in computer systems. It shows the limits where mathematical abstraction starts breaking. After that, it moves to machine level representations of program. The two labs, datalab and bomblab are fun
 
-[14513](https://www.cs.cmu.edu/~213/schedule.html) covers extensive aspects of systems programming. The course starts by teaching how integers are represented in computer systems, showing the limits where mathematical abstraction breaks down. After that, it moves to machine-level representations of programs. The two labs, **datalab** and **bomblab**, are especially fun.
-
 ## Datalab
 Datalab gives us 12 programming puzzles and constrains us to only use certain bitwise operators (no loops, conditionals, etc).
 
